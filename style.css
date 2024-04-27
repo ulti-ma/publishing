@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Lato:wght@300;700&display=swap');
+
+/* website yes yes */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: white;
+  min-width: 200px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body{
+  font-family: 'lato', sans-serif;
+  margin: 0;
+  background-color: ;
+}
+
+main img{
+	box-shadow: 3px 3px 3px rgba(1, 1, 1, 0.5);
+	margin-bottom: 10px;
+}
+
+header img{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul{
+	text-align: right;
+	padding-top: 30px;
+	padding-left: 10%;
+	padding-bottom: 10px;
+}
+
+
+
+h1{
+font-family: 'Barrio', cursive;
+}
+
+h1{
+	text-align:center;
+	font-size:4em;
+}
+
+nav{
+	background-color:#ffe7ff;
+	border-top: 2px #baa0fd solid;
+	border-bottom: 1px #baa0fd solid;
+}
+
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+nav a:link{
+	color:#80528F;
+}
+nav a:visited{
+	color:#b2560d;
+}
+nav a:hover{
+	color:#7593c8;
+}
+nav a:active{
+	color:black;
+}
+
+nav a {
+	font-size: 16px;
+	font-weight:;
+}
+
+
+
+
+.home-hero{
+	  background-image: url(images/sunset.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-hero h1 {
+	font-family: 'Dancing Script', cursive;
+	color: whitesmoke;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px black;
+	padding: 50px 0;
+	margin: 0;
+}
+
+#wrapper main{
+	text-align: center;
+}
+
+.about-me{
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+.paper{
+	box-shadow: 5px 5px 5px #111111;
+	max-width: 800px;
+	text-decoration: none;
+}
+
+blockquote{
+	display: block;
+	font-size: 17px;
+	margin: 10px auto;
+	text-align: left;
+	padding-left: 20px;
+	border-left: 2px solid black;
+}
+
+main{
+	max-width: 1000px;
+	margin:20px auto;
+	border-top: purple solid 3px;
+	padding: 1em;
+	background-color:#ffffff;
+}
+
+button {
+	background-color: palevioletred;
+}
+
+
+ul li{
+	font-size: 15px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+
+.home-float{
+	float: right;
+	max-width: 40%;
+	height: auto;
+	margin: 50px 0px 10px 20px;
+	padding-bottom: 20px;
+}
+
+footer{
+	text-align: center;
+	border-top: 1px gray solid;
+	padding: 15px;
+	clear:both;
+	background-color:#ffe7ff;
+	border-bottom: 2px solid #baa0fd;
+}
+
+
+.footer1000{
+	text-align: left;
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+.fa{ 
+	color: slateblue;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+footer h3{
+	text-align: center;
+}
+
+.copyright{
+}
+
+/*css for tablets*/
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+
+}
+
+/*css for smartphones*/
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+
+}
+
+h6 {font-size:1em
+}
+
+/*other*/
+.mobile
+  {display:none}
+
+@media only screen and
+(max-width:768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display:block;
+	}
+}
